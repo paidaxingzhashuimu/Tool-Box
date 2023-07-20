@@ -1,0 +1,922 @@
+{
+	"\u0026简简单单一顿扫": {
+		"\u0026扫描器": [
+			{
+				"Tool_Id": 1,
+				"Tool_Name": "Xray_1.9.11",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "\u0026扫描器",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"xray_windows_amd64.exe webscan --listen 127.0.0.1:7777 --html-output result.html"
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\扫描器\\xray_1.9.11"
+			},
+			{
+				"Tool_Id": 2,
+				"Tool_Name": "Ez_1.6.7",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "\u0026扫描器",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"ez_windows_amd64.exe webscan ",
+					"ez_windows_amd64.exe web "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\扫描器\\ez-1.6.7"
+			},
+			{
+				"Tool_Id": 3,
+				"Tool_Name": "Ingram",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "\u0026扫描器",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"venv\\Scripts\\activate.bat",
+					"python run_ingram.py -o result\\2023-1 -i target.txt"
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\扫描器\\Ingram"
+			},
+			{
+				"Tool_Id": 4,
+				"Tool_Name": "Kscan",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "\u0026扫描器",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"kscan.exe -t "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\扫描器\\Kscan"
+			},
+			{
+				"Tool_Id": 5,
+				"Tool_Name": "Red_Goby",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "\u0026扫描器",
+				"Tool_Flag": true,
+				"Tool_Exe": "Goby.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\简简单单一顿扫\\扫描器\\Red_Goby"
+			}
+		],
+		"信息收集": [
+			{
+				"Tool_Id": 6,
+				"Tool_Name": "7kbscan",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": true,
+				"Tool_Exe": "7kbscan-WebPathBrute.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\简简单单一顿扫\\目录扫描\\7kbscan"
+			},
+			{
+				"Tool_Id": 7,
+				"Tool_Name": "dirsearch_403",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"python dirsearch.py -u ",
+					"python dirsearch.py -b yes -u "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\目录扫描\\dirsearch_403"
+			},
+			{
+				"Tool_Id": 8,
+				"Tool_Name": "御剑后台",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": true,
+				"Tool_Exe": "御剑后台扫描工具.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\简简单单一顿扫\\目录扫描\\御剑后台"
+			},
+			{
+				"Tool_Id": 9,
+				"Tool_Name": "御剑土司版",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": true,
+				"Tool_Exe": "御剑目录扫描专业版v1.1.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\简简单单一顿扫\\目录扫描\\御剑土司版"
+			},
+			{
+				"Tool_Id": 10,
+				"Tool_Name": "superSearchPlus",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": true,
+				"Tool_Exe": "nw.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\简简单单一顿扫\\资产收集\\superSearchPlus"
+			},
+			{
+				"Tool_Id": 11,
+				"Tool_Name": "Layer",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": true,
+				"Tool_Exe": "Layer.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\简简单单一顿扫\\子域名爆破\\Layer"
+			},
+			{
+				"Tool_Id": 12,
+				"Tool_Name": "OneForAll",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"python oneforall.py run --target ",
+					"python oneforall.py run --targets "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\子域名爆破\\OneForAll"
+			},
+			{
+				"Tool_Id": 13,
+				"Tool_Name": "Dontgo403",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"dontgo403_windows_amd64.exe -u "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\信息泄露扫描\\Dontgo403"
+			},
+			{
+				"Tool_Id": 14,
+				"Tool_Name": "Bypass403",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"python Bypass403.py -u "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\信息泄露扫描\\Bypass403"
+			},
+			{
+				"Tool_Id": 15,
+				"Tool_Name": "Packer-Fuzzer",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"python PackerFuzzer.py -t adv -u "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\信息泄露扫描\\Packer-Fuzzer"
+			},
+			{
+				"Tool_Id": 16,
+				"Tool_Name": "rad爬虫",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"rad_windows_amd64.exe -text-output result.txt -t "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\信息泄露扫描\\rad爬虫"
+			},
+			{
+				"Tool_Id": 17,
+				"Tool_Name": "SpringBoot-Scan",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"python SpringBoot-Scan.py -u "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\信息泄露扫描\\SpringBoot-Scan"
+			},
+			{
+				"Tool_Id": 18,
+				"Tool_Name": "URLFinder",
+				"Tab_Name": "\u0026简简单单一顿扫",
+				"Moudle_Name": "信息收集",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"URLFinder.exe -s all  -u  ",
+					"URLFinder.exe -s -m 2 -u ",
+					"URLFinder.exe -s -f url.txt -o -u "
+				],
+				"Tool_Path": "Tools\\简简单单一顿扫\\信息泄露扫描\\URLFinder"
+			}
+		]
+	},
+	"Cms杂项": {
+		"随随便便Cms": [
+			{
+				"Tool_Id": 38,
+				"Tool_Name": "dedecms",
+				"Tab_Name": "Cms杂项",
+				"Moudle_Name": "随随便便Cms",
+				"Tool_Flag": true,
+				"Tool_Exe": "dedecms.jar",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Cms杂项\\dedecms"
+			}
+		]
+	},
+	"Framework漏洞": {
+		"Java框架": [
+			{
+				"Tool_Id": 24,
+				"Tool_Name": "WeblogicScan",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Java框架",
+				"Tool_Flag": true,
+				"Tool_Exe": "2 DeserializeExploit.jar",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Java框架\\WeblogicScan"
+			},
+			{
+				"Tool_Id": 25,
+				"Tool_Name": "Spring漏洞利用",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Java框架",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Java框架\\Spring"
+			},
+			{
+				"Tool_Id": 26,
+				"Tool_Name": "安恒Struct2",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Java框架",
+				"Tool_Flag": true,
+				"Tool_Exe": "Struts 2.jar",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Java框架\\安恒Struct2"
+			},
+			{
+				"Tool_Id": 79,
+				"Tool_Name": "WeblogicTool",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Java框架",
+				"Tool_Flag": true,
+				"Tool_Exe": "WeblogicTool_1.2.jar",
+				"Tool_Args": [],
+				"Tool_Path": "D:\\Editor\\Goland\\project\\src\\tool.com\\Box\\Tools\\Framework漏洞\\Java框架\\WeblogicTool"
+			}
+		],
+		"OA": [
+			{
+				"Tool_Id": 19,
+				"Tool_Name": "LiqunKit_1.5.5",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "OA",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\OA\\LiqunKit_1.5.5"
+			},
+			{
+				"Tool_Id": 20,
+				"Tool_Name": "LiqunKit_1.6.2",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "OA",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\OA\\LiqunKit_1.6.2"
+			},
+			{
+				"Tool_Id": 21,
+				"Tool_Name": "OA_exploit",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "OA",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\OA\\OA_exploit"
+			},
+			{
+				"Tool_Id": 22,
+				"Tool_Name": "OA攻击合集",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "OA",
+				"Tool_Flag": true,
+				"Tool_Exe": "start OA-EXPTOOL.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\OA\\OA攻击合集"
+			},
+			{
+				"Tool_Id": 23,
+				"Tool_Name": "OA利用工具",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "OA",
+				"Tool_Flag": true,
+				"Tool_Exe": "TDOA_RCE-master.jar",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\OA\\OA利用工具"
+			}
+		],
+		"Thinkphp": [
+			{
+				"Tool_Id": 27,
+				"Tool_Name": "By莲花",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "ThinkphpGUI-1.3-SNAPSHOT.jar",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\Thinkphp莲花"
+			},
+			{
+				"Tool_Id": 28,
+				"Tool_Name": "TPscan",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"python thinkphp_scan.py -url "
+				],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\TPscan"
+			},
+			{
+				"Tool_Id": 29,
+				"Tool_Name": "By孙德胜",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "Thinkphp全网GUI圈子社区专版.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\Thinkphp全网GUI圈子社区专版"
+			},
+			{
+				"Tool_Id": 30,
+				"Tool_Name": "Gui典藏版",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "ThinkphpGUI 2020HackingClub线下典藏版.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\Thinkphp典藏版"
+			},
+			{
+				"Tool_Id": 31,
+				"Tool_Name": "By鲨鱼",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "thinkphp命令执行检测工具.jar",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\thinkphp命令执行检测工具"
+			},
+			{
+				"Tool_Id": 32,
+				"Tool_Name": "By蓝鲸",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\Thinkphp蓝鲸"
+			},
+			{
+				"Tool_Id": 33,
+				"Tool_Name": "By雷石安全",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\Thinkphp雷石安全"
+			},
+			{
+				"Tool_Id": 34,
+				"Tool_Name": "By莲花日志分析",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\Thinkphp日志分析(莲花版)"
+			},
+			{
+				"Tool_Id": 35,
+				"Tool_Name": "BySec日志分析",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\Thinkphp日志分析(Sec版)"
+			},
+			{
+				"Tool_Id": 36,
+				"Tool_Name": "日志分析",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "ThinkPHP.v1.2_Beta.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\Thinkphp日志分析"
+			},
+			{
+				"Tool_Id": 37,
+				"Tool_Name": "综合利用",
+				"Tab_Name": "Framework漏洞",
+				"Moudle_Name": "Thinkphp",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Framework漏洞\\Thinkphp\\Thinkphp综合利用工具"
+			}
+		]
+	},
+	"Java_Audit": {
+		"Jar反编译": [
+			{
+				"Tool_Id": 69,
+				"Tool_Name": "JD_Gui",
+				"Tab_Name": "Java_Audit",
+				"Moudle_Name": "Jar反编译",
+				"Tool_Flag": true,
+				"Tool_Exe": "jd-gui-1.6.6.jar",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Java_Audit\\Jar反编译\\JD_Gui"
+			}
+		],
+		"Java_Scan": [
+			{
+				"Tool_Id": 70,
+				"Tool_Name": "fortify_sca_22.2.2",
+				"Tab_Name": "Java_Audit",
+				"Moudle_Name": "Java_Scan",
+				"Tool_Flag": true,
+				"Tool_Exe": "run.vbs",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Java_Audit\\Java_Scan\\fortify_sca_22.2.2"
+			}
+		]
+	},
+	"Webshell那些事": {
+		"Webshell免杀": [
+			{
+				"Tool_Id": 68,
+				"Tool_Name": "Troy",
+				"Tab_Name": "Webshell那些事",
+				"Moudle_Name": "Webshell免杀",
+				"Tool_Flag": true,
+				"Tool_Exe": "Troy.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Webshell那些事\\Webshell免杀\\Troy"
+			}
+		],
+		"Webshell分析": [
+			{
+				"Tool_Id": 63,
+				"Tool_Name": "BlueTeamTools",
+				"Tab_Name": "Webshell那些事",
+				"Moudle_Name": "Webshell分析",
+				"Tool_Flag": true,
+				"Tool_Exe": "BlueTeamToolsV0.52.jar",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Webshell那些事\\Webshell分析\\BlueTeamTools"
+			}
+		],
+		"Webshell管理": [
+			{
+				"Tool_Id": 64,
+				"Tool_Name": "冰蝎",
+				"Tab_Name": "Webshell那些事",
+				"Moudle_Name": "Webshell管理",
+				"Tool_Flag": true,
+				"Tool_Exe": "Brhinder.bat",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Webshell那些事\\Webshell管理\\冰蝎"
+			},
+			{
+				"Tool_Id": 65,
+				"Tool_Name": "菜刀",
+				"Tab_Name": "Webshell那些事",
+				"Moudle_Name": "Webshell管理",
+				"Tool_Flag": true,
+				"Tool_Exe": "caidao.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Webshell那些事\\Webshell管理\\菜刀"
+			},
+			{
+				"Tool_Id": 66,
+				"Tool_Name": "哥斯拉",
+				"Tab_Name": "Webshell那些事",
+				"Moudle_Name": "Webshell管理",
+				"Tool_Flag": true,
+				"Tool_Exe": "godzilla.jar",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Webshell那些事\\Webshell管理\\哥斯拉"
+			},
+			{
+				"Tool_Id": 67,
+				"Tool_Name": "蚁剑",
+				"Tab_Name": "Webshell那些事",
+				"Moudle_Name": "Webshell管理",
+				"Tool_Flag": true,
+				"Tool_Exe": "AntSword.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\Webshell那些事\\Webshell管理\\蚁剑"
+			}
+		]
+	},
+	"免杀\u0026\u0026远控Shell": {
+		"SHELL管理": [
+			{
+				"Tool_Id": 77,
+				"Tool_Name": "MobaXterm",
+				"Tab_Name": "免杀\u0026\u0026远控Shell",
+				"Moudle_Name": "SHELL管理",
+				"Tool_Flag": true,
+				"Tool_Exe": "MobaXterm_Personal_23.0.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\免杀And远控Shell\\SHELL管理\\MobaXterm"
+			},
+			{
+				"Tool_Id": 78,
+				"Tool_Name": "netcat-1.11",
+				"Tab_Name": "免杀\u0026\u0026远控Shell",
+				"Moudle_Name": "SHELL管理",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"nc64.exe -lvnp 6666"
+				],
+				"Tool_Path": "Tools\\免杀And远控Shell\\SHELL管理\\netcat-win32-1.11\\netcat-1.11"
+			}
+		],
+		"ico资源修改": [
+			{
+				"Tool_Id": 74,
+				"Tool_Name": "resource_hacker",
+				"Tab_Name": "免杀\u0026\u0026远控Shell",
+				"Moudle_Name": "ico资源修改",
+				"Tool_Flag": true,
+				"Tool_Exe": "ResourceHacker.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\免杀And远控Shell\\修改ico\\resource_hacker"
+			},
+			{
+				"Tool_Id": 75,
+				"Tool_Name": "提取ico",
+				"Tab_Name": "免杀\u0026\u0026远控Shell",
+				"Moudle_Name": "ico资源修改",
+				"Tool_Flag": true,
+				"Tool_Exe": "BeCyIconGrabberPortable.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\免杀And远控Shell\\修改ico\\BeCyIconGrabberPortable"
+			},
+			{
+				"Tool_Id": 76,
+				"Tool_Name": "修改ico",
+				"Tab_Name": "免杀\u0026\u0026远控Shell",
+				"Moudle_Name": "ico资源修改",
+				"Tool_Flag": true,
+				"Tool_Exe": "EXEyycxtpxgq.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\免杀And远控Shell\\修改ico\\EXEyycxtpxgq"
+			}
+		]
+	},
+	"内网渗透": {
+		"内网大杀器": [
+			{
+				"Tool_Id": 39,
+				"Tool_Name": "Fscan",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网大杀器",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"fscan.exe -h ",
+					"fscan.exe -np -h ",
+					"fscan.exe -np -hf "
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网大杀器\\Fscan"
+			},
+			{
+				"Tool_Id": 40,
+				"Tool_Name": "RGPScan",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网大杀器",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"还没编译呢该工具"
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网大杀器\\RGPScan"
+			},
+			{
+				"Tool_Id": 41,
+				"Tool_Name": "Xscan",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网大杀器",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"Xscan.exe -h ",
+					"Xscan.exe -np -h ",
+					"Xscan.exe -np -hf "
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网大杀器\\Xscan"
+			},
+			{
+				"Tool_Id": 42,
+				"Tool_Name": "Xscan-Upx",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网大杀器",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"upx-Xscan.exe -h ",
+					"upx-Xscan.exe -np -h ",
+					"upx-Xscan.exe -np -hf "
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网大杀器\\Xscan-Upx"
+			},
+			{
+				"Tool_Id": 43,
+				"Tool_Name": "方程式漏洞利用",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网大杀器",
+				"Tool_Flag": true,
+				"Tool_Exe": "ZombieBoyTools.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\内网渗透\\内网大杀器\\方程式漏洞利用"
+			}
+		],
+		"内网横向\u0026\u0026穿透": [
+			{
+				"Tool_Id": 44,
+				"Tool_Name": "Procdump",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网横向\u0026\u0026穿透",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"待添加"
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网横向And穿透\\Procdump"
+			},
+			{
+				"Tool_Id": 45,
+				"Tool_Name": "psexec",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网横向\u0026\u0026穿透",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"待添加"
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网横向And穿透\\psexec"
+			},
+			{
+				"Tool_Id": 46,
+				"Tool_Name": "WMIHACKER",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网横向\u0026\u0026穿透",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"待添加"
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网横向And穿透\\WMIHACKER"
+			},
+			{
+				"Tool_Id": 47,
+				"Tool_Name": "rakshasa",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网横向\u0026\u0026穿透",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"待添加"
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网横向And穿透\\rakshasa"
+			}
+		],
+		"内网相关密码抓取": [
+			{
+				"Tool_Id": 48,
+				"Tool_Name": "mimikatz",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网相关密码抓取",
+				"Tool_Flag": true,
+				"Tool_Exe": "mimikatz.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\内网渗透\\内网相关密码抓取\\mimikatz\\x64"
+			},
+			{
+				"Tool_Id": 49,
+				"Tool_Name": "hack-browser",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网相关密码抓取",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"待添加"
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网相关密码抓取\\hack-browser"
+			},
+			{
+				"Tool_Id": 50,
+				"Tool_Name": "netpass-x64",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网相关密码抓取",
+				"Tool_Flag": true,
+				"Tool_Exe": "netpass.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\内网渗透\\内网相关密码抓取\\netpass-x64"
+			},
+			{
+				"Tool_Id": 51,
+				"Tool_Name": "RDP凭证获取_ps",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网相关密码抓取",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"待添加"
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网相关密码抓取\\RDP凭证获取_ps"
+			},
+			{
+				"Tool_Id": 52,
+				"Tool_Name": "DumpHash",
+				"Tab_Name": "内网渗透",
+				"Moudle_Name": "内网相关密码抓取",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"待添加"
+				],
+				"Tool_Path": "Tools\\内网渗透\\内网相关密码抓取\\DumpHash"
+			}
+		]
+	},
+	"密码学": {
+		"密码爆破": [
+			{
+				"Tool_Id": 73,
+				"Tool_Name": "弱口令检查工具",
+				"Tab_Name": "密码学",
+				"Moudle_Name": "密码爆破",
+				"Tool_Flag": true,
+				"Tool_Exe": "SNETCracker.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\密码学\\密码爆破\\超级弱口令检查工具"
+			}
+		],
+		"社工密码生成器": [
+			{
+				"Tool_Id": 71,
+				"Tool_Name": "白鹿",
+				"Tab_Name": "密码学",
+				"Moudle_Name": "社工密码生成器",
+				"Tool_Flag": true,
+				"Tool_Exe": "白鹿社工字典生成器.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\密码学\\社工密码生成器\\白鹿"
+			},
+			{
+				"Tool_Id": 72,
+				"Tool_Name": "汉字拼音",
+				"Tab_Name": "密码学",
+				"Moudle_Name": "社工密码生成器",
+				"Tool_Flag": false,
+				"Tool_Exe": "",
+				"Tool_Args": [
+					"待添加~"
+				],
+				"Tool_Path": "Tools\\密码学\\社工密码生成器\\汉字拼音"
+			}
+		]
+	},
+	"应急工具": {
+		"文件搜索": [
+			{
+				"Tool_Id": 62,
+				"Tool_Name": "Everything",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "文件搜索",
+				"Tool_Flag": true,
+				"Tool_Exe": "Everything_x64.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\应急工具\\日志查询\\Everything"
+			}
+		],
+		"日志查询": [
+			{
+				"Tool_Id": 60,
+				"Tool_Name": "Log.Parser",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "日志查询",
+				"Tool_Flag": true,
+				"Tool_Exe": "logs.bat",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\应急工具\\日志查询\\LogView"
+			},
+			{
+				"Tool_Id": 61,
+				"Tool_Name": "LogView",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "日志查询",
+				"Tool_Flag": true,
+				"Tool_Exe": "LogView.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\应急工具\\日志查询\\LogView"
+			}
+		],
+		"综合工具": [
+			{
+				"Tool_Id": 53,
+				"Tool_Name": "Autoruns",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "综合工具",
+				"Tool_Flag": true,
+				"Tool_Exe": "Autoruns.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\应急工具\\综合工具\\Autoruns"
+			},
+			{
+				"Tool_Id": 54,
+				"Tool_Name": "huorong",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "综合工具",
+				"Tool_Flag": true,
+				"Tool_Exe": "Procmon.exe",
+				"Tool_Args": [
+					"火绒剑单独安装包~"
+				],
+				"Tool_Path": "Tools\\应急工具\\综合工具\\huorong"
+			},
+			{
+				"Tool_Id": 55,
+				"Tool_Name": "PCHunter",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "综合工具",
+				"Tool_Flag": true,
+				"Tool_Exe": "PCHunter64.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\应急工具\\综合工具\\PCHunter"
+			},
+			{
+				"Tool_Id": 56,
+				"Tool_Name": "PowerTool",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "综合工具",
+				"Tool_Flag": true,
+				"Tool_Exe": "PowerTool_x64.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\应急工具\\综合工具\\PowerTool"
+			}
+		],
+		"网络连接监控": [
+			{
+				"Tool_Id": 59,
+				"Tool_Name": "TcpView",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "网络连接监控",
+				"Tool_Flag": true,
+				"Tool_Exe": "Tcpview.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\应急工具\\网络连接监控\\TcpView"
+			}
+		],
+		"进程监控": [
+			{
+				"Tool_Id": 57,
+				"Tool_Name": "ProcessExplorer",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "进程监控",
+				"Tool_Flag": true,
+				"Tool_Exe": "procexp.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\应急工具\\进程监控\\ProcessExplorer"
+			},
+			{
+				"Tool_Id": 58,
+				"Tool_Name": "ProcessMonitor",
+				"Tab_Name": "应急工具",
+				"Moudle_Name": "进程监控",
+				"Tool_Flag": true,
+				"Tool_Exe": "Procmon.exe",
+				"Tool_Args": [],
+				"Tool_Path": "Tools\\应急工具\\进程监控\\ProcessMonitor"
+			}
+		]
+	}
+}
