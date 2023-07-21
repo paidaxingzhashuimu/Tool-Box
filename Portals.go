@@ -15,7 +15,7 @@ func main() {
 	State := Other.Init_Config()
 	if State == 400 {
 		Checkwindow.Show()
-		dialog.NewConfirm("错误", "“Config”文件下未发现”Tools_Config1.json“文件！", func(Bool bool) {
+		dialog.NewConfirm("错误", "“Config”文件下未发现”Tools_Config.json“文件！", func(Bool bool) {
 			Checkwindow.Close()
 		}, Checkwindow).Show()
 
