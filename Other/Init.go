@@ -2,7 +2,6 @@ package Other
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/flopp/go-findfont"
 	"github.com/goki/freetype/truetype"
 	"io"
@@ -31,7 +30,6 @@ func Init_Config() int {
 	Open_Tools_Config, err := os.Open("Config\\Tools_Config.json")
 	defer Open_Tools_Config.Close()
 	if err != nil {
-		fmt.Println("[-]Tools_config文件路径出错，请检测！")
 		return 400
 	}
 

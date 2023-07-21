@@ -30,10 +30,12 @@ func Think() (Think_Notes string) {
 func About_Author() (Version_Data string) {
 	Version_Data =
 		">>By 今晚要吃三碗饭\n\n" +
-			">>当前版本 V4.0测试版\n\n" +
+			">>当前版本 V4.1\n\n" +
+			">>优化检测json表的判断\n\n" +
+			">>历史版本 V4.0\n\n" +
 			">>系统设置处可直接添加工具\n\n" +
 			">>优化了部份模块代码，弹窗提示\n\n" +
-			">>当前版本 V3.1\n\n" +
+			">>历史版本 V3.1\n\n" +
 			">>优化了点击工具自动生成READNOTES.md文件\n\n" +
 			"仅在保存修改的时候才会生成此文件。\n\n" +
 			">>优化了部份模块代码，感谢栏不再为静态代码。\n\n" +
