@@ -30,7 +30,11 @@ func Think() (Think_Notes string) {
 func About_Author() (Version_Data string) {
 	Version_Data =
 		">>By 今晚要吃三碗饭\n\n" +
-			">>当前版本 V4.1\n\n" +
+			">>当前版本 V4.2\n\n" +
+			">>优化添加模块时,闪退,map子字典未初始化导致\n\n" +
+			">>优化添加添加命令行交互工具,弹出工具目录异常,为工具路径转换问题。\n\n" +
+			">>优化GUI界面显示工具。\n\n" +
+			">>历史版本 V4.1\n\n" +
 			">>优化检测json表的判断\n\n" +
 			">>历史版本 V4.0\n\n" +
 			">>系统设置处可直接添加工具\n\n" +
@@ -135,7 +139,7 @@ func Add_Tool() (System_Setup_Contain *fyne.Container) {
 					false,
 					"",
 					strings.Split(Tool_Args.Text, "\n"),
-					Select_Folder.Text,
+					filepath.Dir(Select_Folder.Text),
 				}
 			}
 			Tools_Config_Json[Select_Tap.Selected][Select_Moudle.Selected] = append(Tools_Config_Json[Select_Tap.Selected][Select_Moudle.Selected], Tmp)
@@ -652,13 +656,14 @@ func Right_AppTabs() (Right_contain *fyne.Container) {
 		nil, nil,
 		Use_READNOTES_Label,
 	)
-
+	About_Tool := widget.NewMultiLineEntry()
+	About_Tool.SetText(About_Author())
 	//工具多页面容器。
 	tabs := container.NewAppTabs(
 		container.NewTabItem("工具使用&备注", Use_contain),
 		container.NewTabItem("工具添加", Add_Tool()),
 		container.NewTabItem("操作日志", Control_Log),
-		container.NewTabItem("关于工具", widget.NewLabel(About_Author())),
+		container.NewTabItem("关于工具", About_Tool),
 		container.NewTabItem("感谢", widget.NewLabel(Think())),
 	)
 	//多页面容器，排布方式。
