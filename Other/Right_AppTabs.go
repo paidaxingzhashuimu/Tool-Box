@@ -216,7 +216,9 @@ func Add_Tool() (System_Setup_Contain *fyne.Container) {
 						if ok == true {
 							dialog.NewInformation("提示", "该容器标签下的模块已存在，请勿再次添加。", Newwindow).Show()
 						} else {
-							Tools_Config_Json[Add_SelectEntry.Text][Add_Entry.Text] = []Tool{}                    //总表新增数据。
+							Transform := make(map[string][]Tool)
+							Transform[Add_Entry.Text] = []Tool{}
+							Tools_Config_Json[Add_SelectEntry.Text] = Transform                                   //总表新增数据。
 							SonKeys[Add_SelectEntry.Text] = append(SonKeys[Add_SelectEntry.Text], Add_Entry.Text) //Son表新增数据。
 
 							dialog.NewInformation("提示", "添加容器标签"+" ”"+Add_SelectEntry.Text+"” 下的模块 “"+Add_Entry.Text+"” 成功", Newwindow).Show()
